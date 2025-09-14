@@ -13,7 +13,7 @@ led = PWM(Pin(2), freq=frequency, duty=duty_cycle)
 while True:
     led.duty(0)
     sleep(2)
-    led.duty(512)
+    led.duty(700)
     sleep(2)
     led.duty(1023)
     sleep(2)
