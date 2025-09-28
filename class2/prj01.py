@@ -1,7 +1,7 @@
 #########################匯入模組#########################
 from machine import Pin
 from time import sleep
-import mcu
+import class3.mcu as mcu
 
 #########################函式與類別定義#########################
 
