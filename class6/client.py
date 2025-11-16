@@ -15,13 +15,13 @@ while True:
     reply = client_socket.recv(128).decode("utf8")  # 將接受伺服器回傳的訊息並解碼
     if (
         reply
-        == "System error!!! System offline!!! Explosion imminent, danger!!! BOON!!!!!!!!!"
+        == "System error!!! System offline!!! Explosion imminent, danger!!! BOOOOOOOOO!!!!!!!!!"
     ):
         print("BOON!!!!!!!!!!")
         print(reply)
         pyttsx3.say(reply)
         pyttsx3.runAndWait()
-        time.sleep(5)
+        time.sleep(6)
         break
     print(reply)
     pyttsx3.say(reply)

@@ -25,9 +25,9 @@ while True:
         client.send(reply.encode("utf8"))  # 這跟 client.send(b"Hello")是一樣的
     elif msg == "Bye":
         client.send(
-            b"System error!!! System offline!!! Explosion imminent, danger!!! BOON!!!!!!!!!"
+            b"System error!!! System offline!!! Explosion imminent, danger!!! BOOOOOOOOON!!!!!!!!!"
         )
-        time.sleep(5)
+        time.sleep(6)
         break
     else:
         reply = "What??"
